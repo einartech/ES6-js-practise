@@ -17,7 +17,9 @@
  */
 
 // Finish the code of the function
-function exercise04() {}
+function exercise04([a, b, c]) {
+    return b;
+}
 
 // Don’t change the code bellow this line
 import setup04Exercise from "./04-exercise-setup";
@@ -29,5 +31,4 @@ if (process.env.NODE_ENV !== "test") {
         )
     );
 }
-
 export default exercise04;

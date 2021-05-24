@@ -14,3 +14,5 @@
  *
  * export default test;
  */
+
+export const divide = (a = 8, b = 20) => (a / b);

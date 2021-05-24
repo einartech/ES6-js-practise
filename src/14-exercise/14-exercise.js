@@ -12,3 +12,5 @@
  *    return "something";
  * };
  */
+
+export const add = (a = 2, b = 5) => (a + b);
